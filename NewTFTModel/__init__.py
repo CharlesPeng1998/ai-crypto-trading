@@ -15,7 +15,7 @@ from pytorch_forecasting.data.encoders import NaNLabelEncoder
 from pytorch_forecasting.metrics import MAE, MAPE, MASE, RMSE, SMAPE, MultiHorizonMetric, MultiLoss, QuantileLoss
 from pytorch_forecasting.models.base_model import BaseModelWithCovariates
 from pytorch_forecasting.models.nn import LSTM, MultiEmbedding
-from pytorch_forecasting.models.temporal_fusion_transformer.sub_modules import (
+from NewTFTModel.sub_modules import (
     AddNorm,
     GateAddNorm,
     GatedLinearUnit,
